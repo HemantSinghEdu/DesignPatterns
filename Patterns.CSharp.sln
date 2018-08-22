@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Solid.SingleRespon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Solid.OpenClosed", "Patterns.Solid.OpenClosed\Patterns.Solid.OpenClosed.csproj", "{769FC7FD-691B-4809-97BF-C85C96C5CFE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Solid.OpenClosed.Simple", "Patterns.Solid.OpenClosed.Simple\Patterns.Solid.OpenClosed.Simple.csproj", "{F01FB3A4-C931-4B19-A7B3-174FDF7B27E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patterns.Solid.LiskovSubstitution", "Patterns.Solid.LiskovSubstitution\Patterns.Solid.LiskovSubstitution.csproj", "{ABF0632D-6142-4E2D-B3E6-01D575073F8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +93,14 @@ Global
 		{769FC7FD-691B-4809-97BF-C85C96C5CFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{769FC7FD-691B-4809-97BF-C85C96C5CFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{769FC7FD-691B-4809-97BF-C85C96C5CFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01FB3A4-C931-4B19-A7B3-174FDF7B27E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01FB3A4-C931-4B19-A7B3-174FDF7B27E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01FB3A4-C931-4B19-A7B3-174FDF7B27E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01FB3A4-C931-4B19-A7B3-174FDF7B27E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF0632D-6142-4E2D-B3E6-01D575073F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF0632D-6142-4E2D-B3E6-01D575073F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF0632D-6142-4E2D-B3E6-01D575073F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF0632D-6142-4E2D-B3E6-01D575073F8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -126,5 +138,7 @@ Global
 		{BE4B0048-A807-4FEB-A234-642294B994DD} = {B3C175E9-C591-441A-99EB-A208CD850D1E}
 		{58AA0366-274D-4FEF-86ED-0314C23B94D3} = {07352748-5573-491B-B19F-A2D388A739AD}
 		{769FC7FD-691B-4809-97BF-C85C96C5CFE3} = {CF5ADEAA-7F47-490A-BF32-32BA9F5AA0F1}
+		{F01FB3A4-C931-4B19-A7B3-174FDF7B27E4} = {CF5ADEAA-7F47-490A-BF32-32BA9F5AA0F1}
+		{ABF0632D-6142-4E2D-B3E6-01D575073F8F} = {A7B6D791-ACCA-48F2-BEAD-D134935DA430}
 	EndGlobalSection
 EndGlobal
